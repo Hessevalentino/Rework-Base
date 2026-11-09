@@ -1,0 +1,133 @@
+# Rework Base
+
+**Version 0.1 (in development)** | **Last Updated: 2026-11-09** | **ESD Safe**
+
+[![Status: Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-lightgrey.svg)](#version-information)
+[![3D Printable](https://img.shields.io/badge/3D-Printable-green.svg)](#esd-3d-printing)
+[![ESD Safe](https://img.shields.io/badge/ESD-Safe-yellow.svg)](https://en.wikipedia.org/wiki/Electrostatic_discharge)
+[![Material: ESD PETG](https://img.shields.io/badge/Material-ESD%20PETG-blueviolet.svg)](#required-esd-material-parameters)
+[![IEC 61340-5-1](https://img.shields.io/badge/IEC-61340--5--1-informational.svg)](https://webstore.iec.ch/en/publication/66185)
+[![Application: Hot-Air Rework](https://img.shields.io/badge/Application-Hot--Air%20Rework-red.svg)](https://en.wikipedia.org/wiki/Rework_(electronics))
+[![Open Hardware](https://img.shields.io/badge/Hardware-Open-orange.svg)](https://www.oshwa.org/definition/)
+
+> **Work in progress.** Design files, documentation and license will be added as the project develops.
+
+---
+
+## Table of Contents
+
+- [Description](#description)
+- [Project Family](#project-family)
+- [Version Information](#version-information)
+- [Author and Origin](#author-and-origin)
+- [ESD 3D Printing](#esd-3d-printing)
+- [Repository Contents](#repository-contents)
+- [License](#license)
+- [Contributing](#contributing)
+- [Support & Contact](#support--contact)
+
+---
+
+## Description
+
+Rework Base is an ESD-safe, 3D-printed base for electronics rework work — the next part of an open hardware toolset for handling, reworking and inspecting PCBs and SMD components at a hot-air rework station and under a microscope.
+
+*Detailed description, photos and dimensions will follow.*
+
+---
+
+## Project Family
+
+Rework Base is part of a series of ESD-safe, 3D-printed tools for PCB and SMD work:
+
+| Project | Purpose | OSHWA UID |
+|---------|---------|-----------|
+| [Ergonomic SMD Manipulation Pen](https://github.com/Hessevalentino/Ergonomic-SMD-Manipulation-Pen) | Hand tool for manipulating SMD components at a hot-air rework station or under a microscope | [CZ000015](https://certification.oshwa.org/cz000015.html) |
+| [Pyramid PCB Inspection Fixture](https://github.com/Hessevalentino/Pyramid-PCB-Inspection-Fixture) | Fixture for positioning and stabilizing PCBs during microscopic inspection | [CZ000014](https://certification.oshwa.org/cz000014.html) |
+| **Rework Base** (this project) | ESD-safe base for rework work | — |
+
+---
+
+## Version Information
+
+| Parameter | Value |
+|-----------|-------|
+| **Current Version** | 0.1 |
+| **Design Status** | In development |
+| **Compliance (target)** | IEC 61340-5-1 |
+| **License** | To be defined |
+
+---
+
+## Author and Origin
+
+**Valentino Hesse**
+
+This project originates from professional work with ESD-sensitive electronics and is developed as an open hardware project for the technical community.
+
+---
+
+## ESD 3D Printing
+
+All functional parts of this project are intended to be printed from an **ESD-dissipative** filament, so the printed part can be safely used around ESD-sensitive components inside an EPA (ESD Protected Area).
+
+### Manufacturing Specifications
+
+- **Material:** ESD PETG (Electrostatic Discharge dissipative polyethylene terephthalate glycol)
+- **Manufacturing Technology:** Additive manufacturing (FDM 3D printing)
+- **Application:** Hot-air rework and microscopic inspection of PCBs and SMD components
+
+### Required ESD Material Parameters
+
+| Parameter | Value | Standard |
+|-----------|-------|----------|
+| Surface Resistivity | 10⁶ – 10⁹ Ω | IEC 61340-5-1 |
+| Volume Resistivity | 10⁴ – 10¹¹ Ω·cm | IEC 61340-5-1 |
+| Charge Decay Time | < 2 s | IEC 61340-5-1 |
+| Printing Temperature | 230 – 250 °C | — |
+| Bed Temperature | 70 – 85 °C | — |
+| Density | 1.27 – 1.29 g/cm³ | — |
+
+**Note:** The material must comply with IEC 61340-5-1 for protection of electronic components against electrostatic discharge. Use an ESD-**dissipative** filament (e.g. 3DXTech ESD-PETG or an equivalent with ESD certification). Fully conductive filaments are not a substitute — their resistance is too low for the dissipative range above.
+
+### Printing Recommendations
+
+- Dry the filament before printing; moisture affects both print quality and ESD properties.
+- Use a hardened or wear-resistant nozzle — carbon-loaded ESD filaments are abrasive.
+- Do not apply coatings, paints or adhesives to contact surfaces; they can insulate the part.
+- **Verify ESD properties of every printed part** (surface resistance measurement) before using it in an EPA.
+
+---
+
+## Repository Contents
+
+*Design files (CAD source, STL) and documentation (BOM, TESTING, CHANGELOG) will be added during development.*
+
+---
+
+## License
+
+The license has not been selected yet. Until a license file is added, all rights are reserved by the author.
+
+---
+
+## Contributing
+
+The project is in an early stage. Ideas and feedback are welcome via GitHub issues.
+
+---
+
+## Support & Contact
+
+**Author:** Valentino Hesse
+**Repository:** https://github.com/Hessevalentino/Rework-Base
+
+- 🐛 **Bug reports:** Open an issue with "Bug:" prefix
+- 💡 **Feature requests:** Open an issue with "Feature:" prefix
+- 💬 **Questions:** Open an issue with "Question:" prefix
+
+---
+
+**Copyright © 2026 Valentino Hesse**
+
+**Made with ❤️ for the open hardware community**
