@@ -10,9 +10,11 @@
 [![Automotive](https://img.shields.io/badge/Industry-Automotive-red.svg)](https://en.wikipedia.org/wiki/Automotive_industry)
 [![IPC Class 3](https://img.shields.io/badge/IPC-Class%203-brightgreen.svg)](https://www.ipc.org/)
 [![Application: Hot-Air Rework](https://img.shields.io/badge/Application-Hot--Air%20Rework-red.svg)](https://en.wikipedia.org/wiki/Rework_(electronics))
-[![Open Hardware](https://img.shields.io/badge/Hardware-Open-orange.svg)](https://www.oshwa.org/definition/)
+[![Hardware License: CERN-OHL-S-2.0](https://img.shields.io/badge/Hardware%20License-CERN--OHL--S--2.0-blue.svg)](LICENSE)
+[![Documentation License: CC BY-SA 4.0](https://img.shields.io/badge/Docs%20License-CC%20BY--SA%204.0-lightgrey.svg)](LICENSE-DOCS)
+[![OSHWA Certification: Pending](https://img.shields.io/badge/OSHWA%20Certification-Pending-orange.svg)](https://certification.oshwa.org/)
 
-> **Work in progress.** Design files, documentation and license will be added as the project develops.
+> **Open source hardware.** The hardware design is licensed under **CERN-OHL-S-2.0** and the documentation under **CC BY-SA 4.0** — see [License](#license) below. The project is being submitted to the [OSHWA certification program](https://certification.oshwa.org/).
 
 ---
 
@@ -86,7 +88,8 @@ Rework Base is part of a series of ESD-safe, 3D-printed tools for PCB and SMD wo
 | **Industry Sector** | Automotive |
 | **Product Class** | Class 3 (high-reliability electronic products) |
 | **Compliance (target)** | IPC-A-610 Class 3, IPC-7711/7721, IEC 61340-5-1 |
-| **License** | To be defined |
+| **OSHWA Certification** | Pending (submission in preparation) |
+| **License** | Hardware: CERN-OHL-S-2.0 · Documentation: CC BY-SA 4.0 |
 
 ---
 
@@ -147,19 +150,44 @@ All functional parts of this project are intended to be printed from an **ESD-di
 - **`images/rework-base-supports.jpg`** - Photo of the cone supports on the plate
 - **`images/rework-base-render.png`** - 3D render of the base plate
 
+- **`images/oshwa-facts.svg`** - Open Source Hardware license facts label (OSHWA)
+
+### Documentation
+
+- **`README.md`** - Project overview
+- **`LICENSE`** - CERN Open Hardware Licence v2 – Strongly Reciprocal (hardware)
+- **`LICENSE-DOCS`** - Creative Commons Attribution-ShareAlike 4.0 (documentation)
+- **`NOTICE`** - Copyright notice and license summary
+
 *CAD source files, STL and further documentation (BOM, TESTING, CHANGELOG) will be added during development.*
 
 ---
 
 ## License
 
-The license has not been selected yet. Until a license file is added, all rights are reserved by the author.
+This is **open source hardware**. It complies with the [Open Source Hardware Definition](https://www.oshwa.org/definition/) and is being submitted for certification by the [Open Source Hardware Association](https://certification.oshwa.org/). The OSHWA UID will be added here once the certification is granted.
+
+### Open Source Hardware Facts
+
+| Item | License |
+|------|---------|
+| **Hardware** (3D model, 3MF/STL and other design files) | [CERN Open Hardware Licence Version 2 – Strongly Reciprocal (CERN-OHL-S-2.0)](LICENSE) |
+| **Software** | No software/firmware in this project |
+| **Documentation** (README, NOTICE, images) | [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE-DOCS) |
+
+<img src="images/oshwa-facts.svg" alt="Open Source Licenses: Hardware CERN-OHL-S-2.0, Software N/A, Documentation CC-BY-SA-4.0" width="300" />
+
+*License facts label generated with the [OSHWA certification mark generator](https://oshwa.github.io/certification-mark-generator/facts).*
+
+You may study, modify, make, and distribute the hardware and documentation, including commercially, provided that you follow the license terms — in particular, that modified versions are released under the same licenses together with their source files, and that the original authors (Valentino Hesse, co-designer OK2MTS) are credited.
+
+SPDX-License-Identifier: CERN-OHL-S-2.0 (hardware), CC-BY-SA-4.0 (documentation)
 
 ---
 
 ## Contributing
 
-The project is in an early stage. Ideas and feedback are welcome via GitHub issues.
+Contributions are welcome via GitHub issues and pull requests. By submitting a contribution, you agree that it is licensed under CERN-OHL-S-2.0 (hardware) and CC BY-SA 4.0 (documentation).
 
 ---
 
@@ -167,6 +195,7 @@ The project is in an early stage. Ideas and feedback are welcome via GitHub issu
 
 **Author:** Valentino Hesse
 **Repository:** https://github.com/Hessevalentino/Rework-Base
+**License:** Hardware CERN-OHL-S-2.0, documentation CC BY-SA 4.0 (see [License](#license))
 
 - 🐛 **Bug reports:** Open an issue with "Bug:" prefix
 - 💡 **Feature requests:** Open an issue with "Feature:" prefix
@@ -174,6 +203,6 @@ The project is in an early stage. Ideas and feedback are welcome via GitHub issu
 
 ---
 
-**Copyright © 2026 Valentino Hesse**
+**Copyright © 2026 Valentino Hesse.** Hardware licensed under [CERN-OHL-S-2.0](LICENSE), documentation under [CC BY-SA 4.0](LICENSE-DOCS).
 
 **Made with ❤️ for the open hardware community**

@@ -1,0 +1,93 @@
+REWORK BASE
+Copyright Notice
+
+================================================================================
+
+Copyright © 2026 Valentino Hesse
+
+================================================================================
+
+PROJECT INFORMATION
+
+Project Name:    Rework Base
+Version:         0.1 (in development)
+Revision Date:   November 9, 2026
+Author:          Valentino Hesse (inventor and lead designer)
+Co-designer:     OK2MTS (consultant and co-designer)
+Contact:         https://github.com/Hessevalentino/Rework-Base
+OSHWA UID:       Certification pending
+
+================================================================================
+
+LICENSE
+
+This is an open source hardware project.
+
+Hardware (3D model, 3MF/STL and other design files):
+  CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0)
+  See the LICENSE file or https://ohwr.org/cern_ohl_s_v2.txt
+
+Documentation (README, NOTICE, images and other documentation):
+  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+  See the LICENSE-DOCS file or https://creativecommons.org/licenses/by-sa/4.0/
+
+You may redistribute and modify this source and make products using it
+under the terms of the CERN-OHL-S v2. This source is distributed WITHOUT
+ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY
+QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2
+for applicable conditions.
+
+================================================================================
+
+SOURCE LOCATION
+
+The complete source files for this hardware design are available at:
+https://github.com/Hessevalentino/Rework-Base
+
+Source files include:
+  - 3mf/ReworkBasePlate-FIT-SIZE.3mf (Bambu Studio print project - base plate)
+
+================================================================================
+
+INDUSTRY COMPLIANCE
+
+This design was developed for the automotive industry and is designed with
+Class 3 (high-reliability electronic products) requirements in mind, for
+hot-air rework and handling of PCBs that are sensitive to electrostatic
+discharge.
+
+The design consists of a metal base plate recessed in a 3D-printed
+ESD-dissipative frame and repositionable cone-shaped supports held to the
+plate by neodymium magnets.
+
+ESD Compliance (target): IEC 61340-5-1
+Class 3 (target):        IPC-A-610 Class 3, IPC-7711/7721
+Material:                ESD PETG
+Application:             ESD-safe base for PCB rework
+
+================================================================================
+
+DISCLAIMER
+
+This hardware design is provided "as is" without warranty of any kind, express
+or implied. The authors shall not be liable for any damages arising from the
+use of this design. Users are responsible for ensuring compliance with all
+applicable safety standards and regulations in their jurisdiction.
+
+================================================================================
+
+MODIFICATIONS
+
+If you modify this design, you must:
+  1. Clearly mark your modifications
+  2. Document what was changed and when
+  3. Retain this notice with appropriate modifications noted
+  4. Distribute modified hardware under CERN-OHL-S-2.0 together with its
+     source files, and modified documentation under CC BY-SA 4.0
+
+================================================================================
+
+For questions, issues, or contributions, please visit:
+https://github.com/Hessevalentino/Rework-Base
+
+================================================================================
