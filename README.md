@@ -36,6 +36,15 @@ Rework Base is an ESD-safe, 3D-printed base for electronics rework work — the 
 
 The product is intended for the **automotive industry** and is designed throughout with **Class 3 (high-reliability electronic products, IPC-A-610 / IPC-7711/7721)** requirements in mind. Every design decision — geometry, material choice, ESD properties and handling of the PCB during rework — follows from the needs of Class 3 automotive production, where defects introduced during rework are not acceptable.
 
+### Design Concept
+
+The strength of Rework Base lies in the **simplicity of its design**. It consists of only a few parts, yet it offers both **rigidity and full variability**:
+
+- **Metal base plate recessed in an ESD frame** — the metal plate is embedded in a 3D-printed ESD-dissipative frame. The frame encloses the plate edges and gives the whole base a safe, ESD-compliant outline on the workbench.
+- **Supports with neodymium magnets** — the cone-shaped supports hold to the metal plate by neodymium magnets. They stay firmly in place during rework, yet can be freely repositioned on the plate in seconds.
+- **Variability without tools** — the number and position of the supports adapt to any PCB size, shape or connector layout, with no screws, clamps or tools and no PCB-specific fixture.
+- **Better and safer handling** — the PCB rests on a few ESD-safe support points instead of lying flat on the workbench, so components on the underside and the connectors are protected and the board stays stable while it is being reworked.
+
 <img src="images/rework-base-top-view.jpg" alt="Rework Base – top view with cone supports" width="395" /> <img src="images/rework-base-supports.jpg" alt="Rework Base – cone supports placed on the plate" width="395" />
 
 *Left: top view of the base with the cone supports. Right: cone supports positioned on the plate.*
