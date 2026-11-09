@@ -1,12 +1,14 @@
 # Rework Base
 
-**Version 0.1 (in development)** | **Last Updated: 2026-11-09** | **ESD Safe**
+**Version 0.1 (in development)** | **Last Updated: 2026-11-09** | **ESD Safe** | **Designed for Automotive Class 3**
 
 [![Status: Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-lightgrey.svg)](#version-information)
 [![3D Printable](https://img.shields.io/badge/3D-Printable-green.svg)](#esd-3d-printing)
 [![ESD Safe](https://img.shields.io/badge/ESD-Safe-yellow.svg)](https://en.wikipedia.org/wiki/Electrostatic_discharge)
 [![Material: ESD PETG](https://img.shields.io/badge/Material-ESD%20PETG-blueviolet.svg)](#required-esd-material-parameters)
 [![IEC 61340-5-1](https://img.shields.io/badge/IEC-61340--5--1-informational.svg)](https://webstore.iec.ch/en/publication/66185)
+[![Automotive](https://img.shields.io/badge/Industry-Automotive-red.svg)](https://en.wikipedia.org/wiki/Automotive_industry)
+[![IPC Class 3](https://img.shields.io/badge/IPC-Class%203-brightgreen.svg)](https://www.ipc.org/)
 [![Application: Hot-Air Rework](https://img.shields.io/badge/Application-Hot--Air%20Rework-red.svg)](https://en.wikipedia.org/wiki/Rework_(electronics))
 [![Open Hardware](https://img.shields.io/badge/Hardware-Open-orange.svg)](https://www.oshwa.org/definition/)
 
@@ -32,6 +34,8 @@
 
 Rework Base is an ESD-safe, 3D-printed base for electronics rework work — the next part of an open hardware toolset for handling, reworking and inspecting PCBs and SMD components at a hot-air rework station and under a microscope.
 
+The product is intended for the **automotive industry** and is designed throughout with **Class 3 (high-reliability electronic products, IPC-A-610 / IPC-7711/7721)** requirements in mind. Every design decision — geometry, material choice, ESD properties and handling of the PCB during rework — follows from the needs of Class 3 automotive production, where defects introduced during rework are not acceptable.
+
 *Detailed description, photos and dimensions will follow.*
 
 ---
@@ -54,7 +58,9 @@ Rework Base is part of a series of ESD-safe, 3D-printed tools for PCB and SMD wo
 |-----------|-------|
 | **Current Version** | 0.1 |
 | **Design Status** | In development |
-| **Compliance (target)** | IEC 61340-5-1 |
+| **Industry Sector** | Automotive |
+| **Product Class** | Class 3 (high-reliability electronic products) |
+| **Compliance (target)** | IPC-A-610 Class 3, IPC-7711/7721, IEC 61340-5-1 |
 | **License** | To be defined |
 
 ---
