@@ -36,7 +36,19 @@ Rework Base is an ESD-safe, 3D-printed base for electronics rework work — the 
 
 The product is intended for the **automotive industry** and is designed throughout with **Class 3 (high-reliability electronic products, IPC-A-610 / IPC-7711/7721)** requirements in mind. Every design decision — geometry, material choice, ESD properties and handling of the PCB during rework — follows from the needs of Class 3 automotive production, where defects introduced during rework are not acceptable.
 
-*Detailed description, photos and dimensions will follow.*
+<img src="images/rework-base-render.png" alt="Rework Base plate – 3D render" width="800" />
+
+*3D render of the Rework Base plate (from `3mf/ReworkBasePlate-FIT-SIZE.3mf`).*
+
+### Dimensions
+
+| Parameter | Value |
+|-----------|-------|
+| Outer dimensions (L × W) | 211.7 × 164.7 mm |
+| Height | 5.0 mm |
+| Shape | Flat base plate with a raised perimeter rim and rounded corners |
+
+*Detailed description and photos will follow.*
 
 ---
 
@@ -110,7 +122,17 @@ All functional parts of this project are intended to be printed from an **ESD-di
 
 ## Repository Contents
 
-*Design files (CAD source, STL) and documentation (BOM, TESTING, CHANGELOG) will be added during development.*
+### Manufacturing Files
+
+- **`3mf/ReworkBasePlate-FIT-SIZE.3mf`** - Bambu Studio project for 3D printing the base plate
+
+  Print profile stored in the project: Bambu Lab A1, 0.4 mm nozzle, 0.28 mm layer height, 2 walls, 15 % infill. The project is set to a generic PETG filament profile — **switch it to your ESD PETG filament profile before printing** (see [ESD 3D Printing](#esd-3d-printing)).
+
+### Images
+
+- **`images/rework-base-render.png`** - 3D render of the base plate
+
+*CAD source files, STL and further documentation (BOM, TESTING, CHANGELOG) will be added during development.*
 
 ---
 
