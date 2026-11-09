@@ -36,6 +36,10 @@ Rework Base is an ESD-safe, 3D-printed base for electronics rework work — the 
 
 The product is intended for the **automotive industry** and is designed throughout with **Class 3 (high-reliability electronic products, IPC-A-610 / IPC-7711/7721)** requirements in mind. Every design decision — geometry, material choice, ESD properties and handling of the PCB during rework — follows from the needs of Class 3 automotive production, where defects introduced during rework are not acceptable.
 
+<img src="images/rework-base-top-view.jpg" alt="Rework Base – top view with cone supports" width="395" /> <img src="images/rework-base-supports.jpg" alt="Rework Base – cone supports placed on the plate" width="395" />
+
+*Left: top view of the base with the cone supports. Right: cone supports positioned on the plate.*
+
 <img src="images/rework-base-render.png" alt="Rework Base plate – 3D render" width="800" />
 
 *3D render of the Rework Base plate (from `3mf/ReworkBasePlate-FIT-SIZE.3mf`).*
@@ -130,6 +134,8 @@ All functional parts of this project are intended to be printed from an **ESD-di
 
 ### Images
 
+- **`images/rework-base-top-view.jpg`** - Photo of the base, top view with cone supports
+- **`images/rework-base-supports.jpg`** - Photo of the cone supports on the plate
 - **`images/rework-base-render.png`** - 3D render of the base plate
 
 *CAD source files, STL and further documentation (BOM, TESTING, CHANGELOG) will be added during development.*
