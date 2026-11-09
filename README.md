@@ -61,9 +61,12 @@ Rework Base is part of a series of ESD-safe, 3D-printed tools for PCB and SMD wo
 
 ## Author and Origin
 
-**Valentino Hesse**
+| Role | Name |
+|------|------|
+| **Inventor and lead designer** | Valentino Hesse |
+| **Consultant and co-designer** | OK2MTS |
 
-This project originates from professional work with ESD-sensitive electronics and is developed as an open hardware project for the technical community.
+The Rework Base was invented and designed by **Valentino Hesse**, with **OK2MTS** contributing as consultant and co-designer. The project originates from professional work with ESD-sensitive electronics and is developed as an open hardware project for the technical community.
 
 ---
 
