@@ -1,5 +1,7 @@
 # Rework Base
 
+<img src="images/rework-base-workstation.jpg" alt="Rework Base with magnetic cone supports on an ESD rework workstation" width="100%" />
+
 **Version 0.1 (in development)** | **Last Updated: 2026-11-09** | **ESD Safe** | **Designed for Automotive Class 3**
 
 [![Status: Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-lightgrey.svg)](#version-information)
@@ -146,6 +148,7 @@ All functional parts of this project are intended to be printed from an **ESD-di
 
 ### Images
 
+- **`images/rework-base-workstation.jpg`** - Photo of the base on an ESD rework workstation (primary image)
 - **`images/rework-base-top-view.jpg`** - Photo of the base, top view with cone supports
 - **`images/rework-base-supports.jpg`** - Photo of the cone supports on the plate
 - **`images/rework-base-render.png`** - 3D render of the base plate
